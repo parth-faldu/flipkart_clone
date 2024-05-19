@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: aliceblue;
+}
+/* nav bar starts here */
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 20px 0px;
+    background: white;
+    z-index: 1;
+}
+.logo{
+    margin-left: 30px;
+}
+nav *{
+    display: flex;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.login,.cart,.Become-a-Seller{
+    padding: 0px 20px;
+    align-items: center;
+}
+.arrow{
+    margin-left: 10px;
+}
+.text1{
+    margin-left: 10px;
+}
+.search input{
+    width: 709px;
+    height: 40px;
+    border: none;
+    background: #e9f2f2;
+    border-radius: 10px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+.search {
+    margin-left: 40px;
+}
+.icon svg{
+    position: absolute;
+    top: 27px;
+    left: 240px;
+}
+.dots{
+    margin-left: 35px;
+}
+
+/* nav bar ends here */
+
+
+
+/* main content starts here  */
+
+
+
+
+
+.category{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    background: white;
+    margin: 90px 12px 0px 10px;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
+
+.arrow2{
+    float: right;
+    margin: 5px 0px 0px 5px;
+}
+
+.pad-for-cat{
+    padding: 5px 17px;
+    text-align: center;
+}
+
+/* slider starts here */
+
+.slider{
+    position: relative;
+    margin: 10px 0px 0px 10px;
+    width: 1500px; 
+    z-index: 0;   
+}
+.slider img{
+    width: 1500px;
+}
+.swipe1,.swipe2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:30%;
+    height:90px;
+    width:40px;
+    background: white;
+}
+.swipe1{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.swipe2{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0px;
+}
+
+/* slider ends here */
+
+
+/* card phones  */
+.card1-con{
+    display: flex;
+    height: 380px;
+    margin-left: 1px;
+}
+.card1{
+    position: relative;
+    background: white;
+    margin: 10px 0px 0px 10px;
+    padding-bottom: 20px;
+    width: 1250px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+
+.phones{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    gap: 25px;
+    overflow: hidden;
+}
+.title{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.blue-arrow{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px 0px;
+    width:25px;
+    height: 25px;
+    background: blue;
+    border-radius: 50px;
+}
+.card1 img{
+    width: 130px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.moto,.vivo,.poco,.redmi,.poco-x6,.poco-m6{
+    width:192px;
+    height:268px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.border{
+    border: 1px solid rgba(102, 102, 102, 0.341);
+    border-radius: 4px;
+}
+.flex-for-phones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swipe-for-phone{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right:0px;
+    margin-top:70px;
+    width: 40px;
+    height:90px;
+    background: white;
+}
+.flight{
+    margin-left:12px;
+}
+.flight img{
+    width:238px;
+    height: 390px;
+}
+
+.card2{
+    display: flex;
+    margin: 15px 0px 0px 2px;
+    justify-content: space-evenly;
+}
+.card2 *{
+    object-fit: contain;
+    overflow: hidden;
+}
+.card2 img{
+    width:500px;
+    height:265px;
+}
+
+/* card3 ends here */
+
+.card3{
+    position: relative;
+    margin: 10px 0px 0px 10px;
+    width: 1500px;
+    height:320px;
+    padding-bottom: 15px;
+    background: white;
+}
+.top-deals{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.blue-arrow2{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 25px 0px 0px;
+    width: 25px;
+    height: 25px;
+    background: blue;
+    border-radius: 50px;
+
+}
+.swipe-for-deals{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right:11px;
+    margin-top:50px;
+    width: 40px;
+    height:90px;
+    background: white;
+}
+.deals{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 20px;
+    overflow: hidden;
+}
+.deals img{
+    margin-bottom: 10px;
+    width:186px;
+    height:186px;
+    object-fit: contain;
+}
+.c3-1{
+    margin-left: 10px;
+}
+.deals *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals b{
+    padding-bottom: 10px;
+}
+/* card3 starts here */
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin: 10px 0px 0px 10px;
+    width: 1500px;
+    padding: 20px 0px;
+    background: rgb(37, 37, 37);
+    color: white;
+}
+.info-title{
+    color:silver
+}
+.info *{
+    font-size:10px;
+    font-weight: bold;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.info-title{
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.about{
+    margin-left: 70px;
+}
+.info p{
+    padding: 2px;
+}
+.Mail-Us{
+    border-left: 1px solid silver;
+    padding-left: 30px;
+}
+span{
+    color: #5050d2;
+}
+.social{
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:  rgb(37, 37, 37);
+    width: 1500px;
+    margin-left:10px;
+    padding: 20px 0px;
+    border-top: 1px solid silver;
+    color: white;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+    font-size: 10px;
+}
+footer *{
+    display: flex;
+}
