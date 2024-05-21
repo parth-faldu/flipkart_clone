@@ -86,7 +86,6 @@ nav *{
     position: relative;
     margin: 10px 0px 0px 10px;
     width: 1500px; 
-    z-index: 0;   
 }
 .slider img{
     width: 1500px;
@@ -104,6 +103,7 @@ nav *{
 .swipe1{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    left: 0px;
 }
 .swipe2{
     border-top-left-radius: 5px;
