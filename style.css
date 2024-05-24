@@ -26,7 +26,7 @@ nav *{
     font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
 }
 .login,.cart,.Become-a-Seller{
-    padding: 0px 20px;
+    padding: 0px 15px;
     align-items: center;
 }
 .arrow{
@@ -53,9 +53,12 @@ nav *{
     left: 240px;
 }
 .dots{
-    margin-left: 35px;
+    margin: 10px 50px;
 }
-
+.dots img{
+    width: 24px;
+    height: 24px;
+}
 /* nav bar ends here */
 
 
@@ -72,7 +75,7 @@ nav *{
 
 .arrow2{
     float: right;
-    margin: 5px 0px 0px 5px;
+    margin: 8px 0px 0px 5px;
 }
 
 .pad-for-cat{
@@ -86,9 +89,7 @@ nav *{
     position: relative;
     margin: 10px 0px 0px 10px;
     width: 1500px; 
-}
-.slider img{
-    width: 1500px;
+    height: 260px;
 }
 .swipe1,.swipe2{
     position: absolute;
@@ -109,8 +110,22 @@ nav *{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     right: 0px;
+} 
+.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 6px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-radius: 50px;
+} 
+.button-con{
+    background-color: rgba(40, 36, 36, 0.20);
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    border-radius: 50px;
+    padding: 3px;
 }
-
 /* slider ends here */
 
 
@@ -188,7 +203,7 @@ nav *{
     background: white;
 }
 .flight{
-    margin-left:12px;
+    margin-left:11px;
 }
 .flight img{
     width:238px;
@@ -196,19 +211,19 @@ nav *{
 }
 
 .card2{
-    display: flex;
-    margin: 15px 0px 0px 2px;
-    justify-content: space-evenly;
-}
-.card2 *{
-    object-fit: contain;
-    overflow: hidden;
+    /* display: flex;  */
+    margin: 15px 0px 0px 10px;
+    /* width: 97vw;
+    height:40vh; */
+    padding-right: 11px;
+    display: grid;
+    grid-template-columns: 32vw 32vw 0vw;
+    gap:13px;
 }
 .card2 img{
-    width:500px;
-    height:265px;
+    width:32vw;
+    height: 100%;
 }
-
 /* card3 ends here */
 
 .card3{
@@ -216,7 +231,7 @@ nav *{
     margin: 10px 0px 0px 10px;
     width: 1500px;
     height:320px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     background: white;
 }
 .top-deals{
@@ -330,4 +345,11 @@ footer{
 }
 footer *{
     display: flex;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+*, ::after, ::before {
+    box-sizing:unset;
 }
