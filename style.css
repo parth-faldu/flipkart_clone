@@ -353,7 +353,9 @@ p {
     margin-top: 0;
     margin-bottom: 0rem;
 }
-
+*, ::after, ::before {
+    box-sizing:unset;
+}
 
 /* animation starts here */
 
