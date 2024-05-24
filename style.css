@@ -217,6 +217,7 @@ nav *{
     grid-template-columns: 491px 491px 0px;
     gap:13px; */
     display: flex;
+    justify-content: space-evenly;
 }
 .card2 img{
     width:492px;
