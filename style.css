@@ -28,7 +28,6 @@ nav *{
 .login,.cart,.Become-a-Seller{
     padding: 0px 15px;
     align-items: center;
-    object-fit: contain;
 }
 .arrow{
     margin-left: 10px;
