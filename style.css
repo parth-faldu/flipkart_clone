@@ -213,9 +213,10 @@ nav *{
 .card2{
     margin: 15px 0px 0px 10px;
     padding-right: 11px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 491px 491px 0px;
-    gap:13px;
+    gap:13px; */
+    display: flex;
 }
 .card2 img{
     width:492px;
@@ -356,7 +357,6 @@ p {
 
 .card1 img:hover {
     width: 150px;
-    ;
     height: 200px;
 }
 
