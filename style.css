@@ -351,3 +351,18 @@ p {
 *, ::after, ::before {
     box-sizing:unset;
 }
+
+/* animation starts here */
+
+.card1 img:hover {
+    width: 150px;
+    ;
+    height: 200px;
+}
+
+.card3 img:hover {
+    width: 200px;
+    width: 200px;
+}
+
+/* animation ends here */
