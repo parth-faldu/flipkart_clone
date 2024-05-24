@@ -210,21 +210,18 @@ nav *{
     height: 390px;
 }
 
-/* .card2{
+.card2{
     margin: 15px 0px 0px 10px;
     padding-right: 11px;
     display: grid;
     grid-template-columns: 32vw 32vw 0vw;
     gap:13px;
-} */
+}
 .card2 img{
-    width:100vw;
+    width:492px;
     height: 100%;
 }
-.c1,.c2,.c3{
-    width:32vw;
-    height: 100%;
-}
+
 /* card3 ends here */
 
 .card3{
