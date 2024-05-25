@@ -46,11 +46,12 @@ nav *{
 }
 .search {
     margin-left: 40px;
+    position: relative;
 }
-.icon svg{
+.icon {
     position: absolute;
-    top: 27px;
-    left: 240px;
+    top: 8px;
+    left: 11px;
 }
 .dots{
     margin: 10px 50px;
@@ -213,9 +214,6 @@ nav *{
 .card2{
     margin: 15px 0px 0px 10px;
     padding-right: 11px;
-    /* display: grid;
-    grid-template-columns: 491px 491px 0px;
-    gap:13px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -355,6 +353,9 @@ p {
 }
 *, ::after, ::before {
     box-sizing:unset;
+}
+img, svg {
+    vertical-align:unset;
 }
 
 /* animation starts here */
